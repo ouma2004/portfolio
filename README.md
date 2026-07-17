@@ -1,43 +1,80 @@
-# Portfolio — EDDARDARI Oumayma (v2)
+<div align="center">
 
-## 📂 Structure
+# ✦ EDDARDARI Oumayma
+
+### Computer Engineering Student
+
+*Full-Stack Developer · Data Engineer · Data Analyst · AI Engineer*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oumayma-eddardari-2853a2318)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ouma2004)
+[![Portfolio](https://img.shields.io/badge/Portfolio-4f79f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://oumayma-eddardari.netlify.app)
+
+</div>
+
+---
+
+## Overview
+
+A modern, dark-themed personal portfolio built with pure HTML, CSS and JavaScript — no frameworks, no dependencies. Designed to be fast, elegant and fully responsive across all devices.
+
+---
+
+## Tech Stack
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+
+---
+
+## Features
+
+- **Dark elegant design** — deep navy palette with blue accents
+- **Times New Roman typography** — across every element for a refined feel
+- **Particle canvas animation** — lightweight, GPU-smooth background
+- **Typed text effect** — cycling through specialties in the hero section
+- **Scroll reveal animations** — content fades in as you navigate
+- **Project filters** — filter by Web, Data, Full-Stack, DevOps, IoT
+- **Animated skill bars** — triggered on scroll into view
+- **Contact form** — powered by Netlify Forms, zero backend required
+- **Fully responsive** — mobile-first layout, hamburger navigation
+- **Back to top button** — smooth scroll, appears after 400px
+
+---
+
+## Projects Featured
+
+| # | Project | Stack |
+|---|---------|-------|
+| 01 | 🏛️ Northwind Data Warehouse | SQL Server · ETL · Data Warehouse |
+| 02 | 📂 Multi-Site Archiving System  | Kubernetes · Docker · MinIO · FastAPI |
+| 03 | 🗑️ Smart Solar Waste Bin | IoT · Sensors |
+| 04 | 📊 SNCF Dashboard | Power BI · Talend · ETL |
+| 05 | ☕ Café Management App | ASP.NET Core · C# · MVC |
+| 06 | 🎂 Café & Cakes Full-Stack | React · Spring Boot · MySQL |
+| 07 | ⚖️ Sijel Tadawol — Tribunal | ASP.NET Core · C# · React ·  Security |
+
+---
+
+## Structure
+
 ```
 portfolio/
-├── index.html   → Structure HTML complète
-├── style.css    → Design dark élégant (Playfair Display)
-├── main.js      → Interactions JS (filtres corrigés, curseur natif)
-├── photo.jpg    → ⚠️ Ta photo (à ajouter toi-même)
+├── index.html
+├── style.css
+├── main.js
+├── photo.jpg
 └── README.md
 ```
 
-## 📸 Ajouter ta photo
-1. Copie ton image dans le dossier `portfolio/`
-2. Renomme-la exactement `photo.jpg`
-3. Elle apparaît automatiquement dans le hero et la section À propos
-> Si pas de photo → les initiales "OE" s'affichent en doré
+---
 
-## 🚀 Déploiement GitHub + Netlify
+<div align="center">
 
-### 1 — Push sur GitHub
-```bash
-git init
-git add .
-git commit -m "Portfolio Oumayma v2"
-git remote add origin https://github.com/TON_USERNAME/portfolio.git
-git push -u origin main
-```
+*Built with intention · Designed with precision*
 
-### 2 — Connecter Netlify
-- https://netlify.com → New site from Git → GitHub → ton repo
-- Build command : laisser vide
-- Publish directory : `.`
-- Deploy ✅
+**© 2025 EDDARDARI Oumayma — All rights reserved**
 
-### 3 — Recevoir les emails du formulaire
-Netlify → Forms → contact → Settings → activer notifications email
-
-## 🔗 À personnaliser dans index.html
-- `your.email@example.com` → ton vrai email (2 occurrences)
-- LinkedIn href="#" → ton vrai lien
-- GitHub href="#" → ton vrai lien
-- Boutons "Voir le projet" → tes liens GitHub/démos
+</div>
