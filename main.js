@@ -348,27 +348,22 @@ function initForm() {
   });
 }
 
+/* ── DARK / LIGHT MODE ── */
+(function initTheme() {
+  const btn  = document.getElementById('themeToggle');
+  const icon = document.getElementById('themeIcon');
+  if (!btn) return;
+  if (localStorage.getItem('theme') === 'light') apply('light');
 
-/* ─── LIENS PROJETS — à personnaliser ─── */
-/*
-   Pour chaque projet, remplace le href="#" par ton vrai lien GitHub ou démo.
-   Exemple dans index.html :
-     id="proj-01" → ton repo Northwind
-     id="proj-02" → ton repo Tribunal
-     etc.
+  btn.addEventListener('click', () => {
+    document.body.classList.contains('light') ? apply('dark') : apply('light');
+  });
 
-   Ou décommente et adapte le tableau ci-dessous :
-*/
-// const projectLinks = {
-//   'proj-01': 'https://github.com/oumayma-eddardari/northwind-dw',
-//   'proj-02': 'https://github.com/oumayma-eddardari/tribunal-docs',
-//   'proj-03': 'https://github.com/oumayma-eddardari/smart-bin',
-//   'proj-04': 'https://github.com/oumayma-eddardari/sncf-powerbi',
-//   'proj-05': 'https://github.com/oumayma-eddardari/cafe-dotnet',
-//   'proj-06': 'https://github.com/oumayma-eddardari/cafe-react-spring',
-//   'proj-07': 'https://github.com/oumayma-eddardari/sijel-tadawol',
-// };
-// Object.entries(projectLinks).forEach(([id, url]) => {
-//   const el = document.getElementById(id);
-//   if (el && url) el.href = url;
-// });
+  function apply(mode) {
+    document.body.classList.toggle('light', mode === 'light');
+    icon.className = mode === 'light' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+    localStorage.setItem('theme', mode);
+  }
+})();
+
+
